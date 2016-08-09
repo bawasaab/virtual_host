@@ -4,9 +4,6 @@
 	ServerAdmin test.local<br>
 	DocumentRoot "/home/deepak/test/"<br>
 	ServerName test.local<br>
-
-	ErrorLog "logs/test.local"<br>
-	CustomLog "logs/test.local" common<br>
 	
 	 &lt;Directory "/home/deepak/test/"&gt;<br>
     		Options Indexes FollowSymLinks<br>
