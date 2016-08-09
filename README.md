@@ -1,17 +1,17 @@
-# virtual_host
+# virtual_host<br>
 
-&lt;VirtualHost *:80&gt;
-	ServerAdmin test.local
-	DocumentRoot "/home/deepak/test/"
-	ServerName test.local
+&lt;VirtualHost *:80&gt;<br>
+	ServerAdmin test.local<br>
+	DocumentRoot "/home/deepak/test/"<br>
+	ServerName test.local<br>
 
-	ErrorLog "logs/test.local"
-	CustomLog "logs/test.local" common
+	ErrorLog "logs/test.local"<br>
+	CustomLog "logs/test.local" common<br>
 	
-	 &lt;Directory "/home/deepak/test/"&gt;
-    		Options Indexes FollowSymLinks
-	    	AllowOverride All
-    		Order allow,deny
-	    	Allow from all
-    	&lt;/Directory&gt;
-&lt;/VirtualHost&gt;
+	 &lt;Directory "/home/deepak/test/"&gt;<br>
+    		Options Indexes FollowSymLinks<br>
+	    	AllowOverride All<br>
+    		Order allow,deny<br>
+	    	Allow from all<br>
+    	&lt;/Directory&gt;<br>
+&lt;/VirtualHost&gt;<br>
